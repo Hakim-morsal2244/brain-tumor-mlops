@@ -32,34 +32,33 @@ The final model is deployed as an API where users can upload an MRI image and re
 ---
 
 # 🏗️ System Architecture
+```text
 MRI Images
-|
-↓
+     |
+     ↓
 Data Preprocessing
-|
-↓
+     |
+     ↓
 CNN Model Training
-|
-↓
+     |
+     ↓
 Model Evaluation
-|
-↓
+     |
+     ↓
 MLflow Experiment Tracking
-|
-↓
+     |
+     ↓
 Saved Model
-|
-↓
+     |
+     ↓
 FastAPI Deployment
-|
-↓
+     |
+     ↓
 Docker Container
-|
-↓
+     |
+     ↓
 Prediction API
-
-
----
+```
 
 # 🛠️ Technologies Used
 
@@ -203,17 +202,6 @@ cd brain-tumor-mlops
 
 2. Create environment
 python -m venv .venv
-
-Activate:
-
-Windows:
-
-.venv\Scripts\activate
-3. Install dependencies
-pip install -r requirements.txt
-4. Start FastAPI server
-uvicorn app.api:app --host 0.0.0.0 --port 8000
-
 API will run at:
 
 http://localhost:8000
@@ -233,6 +221,17 @@ Users can:
 ⚡ Run prediction
 📊 Receive predicted tumor class
 🎯 View confidence score
+
+# 📸 API Demo Screenshots
+
+## Swagger API Interface
+
+![Swagger](sc<img width="950" height="466" alt="Screenshot 2026-07-27 003839" src="https://github.com/user-attachments/assets/31e5c474-a638-4372-af5f-c3211c75ee76" />
+reenshots/swagger.png)
+
+## Prediction Result
+
+<img width="301" height="317" alt="Screenshot 2026-07-27 003900" src="https://github.com/user-attachments/assets/46feb697-b78d-4565-8a89-0ed48ab73f75" />
 
 🐳 Running with Docker
 
@@ -284,12 +283,3 @@ Add automated CI/CD pipeline
 Improve accuracy using transfer learning models
 
 ⭐ If this project helped you, consider giving it a star!
-
-
-After saving:
-
-```powershell
-git add README.md
-git commit -m "Add professional README documentation"
-git push
-
