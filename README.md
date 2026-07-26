@@ -193,55 +193,92 @@ Example tracked information:
 
 # 🚀 Running the API Locally
 
-## 1. Clone repository
+## 1. Clone Repository
 
 ```bash
 git clone https://github.com/Hakim-morsal2244/brain-tumor-mlops.git
 
 cd brain-tumor-mlops
+```
 
-2. Create environment
+## 2. Create Environment
+
+```bash
 python -m venv .venv
+```
+
+Activate:
+
+Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+## 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4. Start API Server
+
+```bash
+uvicorn app.api:app --host 0.0.0.0 --port 8000
+```
+
 API will run at:
 
+```
 http://localhost:8000
+```
 
+---
 
-📖 API Documentation
+# 📖 API Documentation
 
 FastAPI automatically provides interactive documentation.
 
 Open:
 
+```
 http://localhost:8000/docs
+```
 
 Users can:
 
-📤 Upload MRI image
-⚡ Run prediction
-📊 Receive predicted tumor class
-🎯 View confidence score
+- 📤 Upload MRI image
+- ⚡ Run prediction
+- 📊 Receive predicted tumor class
+- 🎯 View confidence score
+
+---
 
 # 📸 API Demo Screenshots
 
 ## Swagger API Interface
 
-![Swagger](sc<img width="950" height="466" alt="Screenshot 2026-07-27 003839" src="https://github.com/user-attachments/assets/31e5c474-a638-4372-af5f-c3211c75ee76" />
-reenshots/swagger.png)
+![Swagger API](https://github.com/user-attachments/assets/31e5c474-a638-4372-af5f-c3211c75ee76)
 
 ## Prediction Result
 
-<img width="301" height="317" alt="Screenshot 2026-07-27 003900" src="https://github.com/user-attachments/assets/46feb697-b78d-4565-8a89-0ed48ab73f75" />
+![Prediction Result](https://github.com/user-attachments/assets/46feb697-b78d-4565-8a89-0ed48ab73f75)
 
-🐳 Running with Docker
+---
+
+# 🐳 Running with Docker
 
 Build image:
 
+```bash
 docker build -t brain-tumor-api .
+```
 
 Run container:
 
+```bash
 docker run -p 8000:8000 brain-tumor-api
+```
 
 🔮 Prediction Example
 
