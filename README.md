@@ -89,26 +89,41 @@ Prediction API
 ---
 
 # 📂 Project Structure
+```text
 brain-tumor-mlops/
 
-│
 ├── app/
-│ ├── api.py # FastAPI prediction API
-│ ├── model_loader.py # Loads trained model
-│ ├── utils.py # Utility functions
-│ └── init.py
-│
+│   ├── api.py                 # FastAPI prediction API
+│   ├── model_loader.py        # Loads trained model
+│   ├── utils.py               # Utility functions
+│   └── __init__.py
+
 ├── models/
-│ └── brain_tumor_cnn_mlflow.h5
-│
+│   └── brain_tumor_cnn_mlflow.h5
+
 ├── notebooks/
-│ └── train_model.ipynb # Model training notebook
-│
-├── Dockerfile # Container configuration
-├── requirements.txt # Dependencies
-├── mlflow_tracking.py # MLflow experiment tracking
-├── convert_model.py # Model conversion utility
-└── README.md
+│   └── train_model.ipynb      # Model training notebook
+
+├── Dockerfile                 # Container configuration
+├── requirements.txt           # Python dependencies
+├── mlflow_tracking.py         # MLflow experiment tracking
+├── convert_model.py           # Model conversion utility
+└── README.md                  # Project documentation
+```
+
+The important part is:
+
+```text
+...
+
+The triple backticks tell GitHub: "show this as code/text and keep the spaces."
+
+After editing:
+1. Click **Commit changes**
+2. Choose **Commit directly to main**
+3. Refresh your repository page
+
+It will display as a clean folder tree. ✅
 
 ---
 
