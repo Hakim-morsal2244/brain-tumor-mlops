@@ -272,12 +272,12 @@ Output:
 
 The project supports model retraining through:
 
-📥 New MRI data collection
-🗂️ Data preprocessing
-🧠 CNN model training
-📊 Model evaluation
-🔬 MLflow tracking
-💾 Saving updated model
+- 📥 New MRI data collection
+- 🗂️ Data preprocessing
+- 🧠 CNN model training
+- 📊 Model evaluation
+- 🔬 MLflow tracking
+- 💾 Saving updated model
 
 👩‍💻 Author
 
