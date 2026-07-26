@@ -110,22 +110,6 @@ brain-tumor-mlops/
 └── README.md                  # Project documentation
 ```
 
-The important part is:
-
-```text
-...
-
-The triple backticks tell GitHub: "show this as code/text and keep the spaces."
-
-After editing:
-1. Click **Commit changes**
-2. Choose **Commit directly to main**
-3. Refresh your repository page
-
-It will display as a clean folder tree. ✅
-
----
-
 # 🧪 Model Training Pipeline
 
 The training workflow includes:
@@ -197,7 +181,6 @@ Example tracked information:
 
 ```bash
 git clone https://github.com/Hakim-morsal2244/brain-tumor-mlops.git
-
 cd brain-tumor-mlops
 ```
 
@@ -205,14 +188,6 @@ cd brain-tumor-mlops
 
 ```bash
 python -m venv .venv
-```
-
-Activate:
-
-Windows:
-
-```bash
-.venv\Scripts\activate
 ```
 
 ## 3. Install Dependencies
