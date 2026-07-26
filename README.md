@@ -149,6 +149,7 @@ The model was evaluated using multiple metrics:
 | F1-score | ~87% |
 
 Evaluation included:
+<img width="510" height="389" alt="Screenshot 2026-07-27 005916" src="https://github.com/user-attachments/assets/6d2faaf9-263a-4fe5-b8ab-6ec115a46b4f" />
 
 - Confusion matrix
 - Classification report
