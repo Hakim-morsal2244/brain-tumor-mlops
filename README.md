@@ -12,6 +12,12 @@ This project demonstrates the complete ML lifecycle:
 🐳 Docker containerization  
 🔄 Model prediction pipeline  
 
+# 🎥 Video Demo
+
+You can watch the complete project demonstration here:
+
+📺 YouTube Link:
+https://youtu.be/zZqTtyQHSwo
 ---
 
 # 📌 Project Overview
